@@ -16,9 +16,17 @@ renames every file in pwd 1...n with thier extensions eg 0001.jpg,0002.mp4,0003.
 ```sh
 python3 rename.py
 ```
----
-#### the script may or may not require venv but here the step to create one 
 
+### ip.sh
+returns json for ip address for adapters (if tun exists it will return tun ip) 
+
+**Usage:**
+```sh
+bash ip.sh
 ```
+---
+#### the script may or may not require venv but here the step to create one
+
+```sh
 python3 -m venv venv && source venv/bin/activate
 ```
