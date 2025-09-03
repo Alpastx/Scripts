@@ -24,6 +24,13 @@ returns json for ip address for adapters (if tun exists it will return tun ip)
 ```sh
 bash ip.sh
 ```
+### discordupdate.sh
+updates the version of discord in the specified file so that i dont have to convert .deb to .zst every time i update discord
+
+**Usage:**
+```sh
+sudo ./discordupdate.sh
+```
 ---
 #### the script may or may not require venv but here the step to create one
 
